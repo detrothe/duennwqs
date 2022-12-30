@@ -11,7 +11,7 @@ import {init_contextmenu} from './contextMenu.js';
 
 import {add_element, main_3D} from "./grafik_3D";
 
-//import {duennQuer} from "./duennQ";
+import "./duenn3D";
 
 //import {TFVector} from "./TFArray";
 

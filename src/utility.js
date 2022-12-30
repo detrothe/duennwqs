@@ -80,6 +80,13 @@ export function sichtbar(displayName) {
 
         document.getElementById("my-svg").style.display = "none";
     }
+    if (displayName === 'duenn3D') {
+
+        document.getElementById("my-webgl").style.display = "block";
+    } else {
+
+        document.getElementById("my-webgl").style.display = "none";
+    }
 }
 
 /*

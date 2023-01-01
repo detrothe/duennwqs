@@ -182,7 +182,7 @@ hr {
 .topnav a {
     float: left;
     display: block;
-    color: #F8F8F8;
+    color: red;    /*#F8F8F8; */
     text-align: center;
     padding: 8px;
     text-decoration: none;
@@ -192,12 +192,12 @@ hr {
 
 .topnav a:hover {
     background-color: #D8D8D8;
-    color: black;
+    color: darkblue;
 }
 
-.topnav a.active {
+.topnav a.active {       /* wozu ? */
     background-color: #4CAF50;
-    color: white;
+    color: green;
 }
 
 .topnav .info {

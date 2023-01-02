@@ -182,7 +182,7 @@ hr {
 .topnav a {
     float: left;
     display: block;
-    color: red;    /*#F8F8F8; */
+    color: #F8F8F8;
     text-align: center;
     padding: 8px;
     text-decoration: none;
@@ -193,6 +193,14 @@ hr {
 .topnav a:hover {
     background-color: #D8D8D8;
     color: darkblue;
+}
+
+.topnav a:focus {
+    background-color: #D8D8D8;
+    color: darkblue;
+    border-style: solid solid none none;
+    border-color: #D8D8D8;
+    border-radius: 0px 8px 0px 0px;
 }
 
 .topnav a.active {       /* wozu ? */

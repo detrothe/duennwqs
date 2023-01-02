@@ -96,7 +96,7 @@ init_contextmenu();
 
 main_3D();
 
-sichtbar('eingabe')
+eingabe1();
 
 // add_element();
 

@@ -1,9 +1,5 @@
-
-import {set_nnodes,set_nelem} from "./duennQ"
+import {set_nnodes, set_nelem} from "./duennQ"
 import {resize_Tabelle} from "./base_tabelle";
-
-
-
 
 
 //----------------------------------------------------------------------------------------------
@@ -19,8 +15,8 @@ export function resizeTable() {
 
     console.log("nnodes,nelem", nnodes, nelem)
 
-    set_nnodes( nnodes)
-    set_nelem( nelem)
+    set_nnodes(nnodes)
+    set_nelem(nelem)
 
     resize_Tabelle("nodeTable", nnodes, 2);
     resize_Tabelle("elemTable", nelem, 5);
@@ -29,11 +25,11 @@ export function resizeTable() {
 
 
 //----------------------------------------------------------------------------------------------
-export function table_index( idTable ) {
+export function table_index(idTable) {
 //----------------------------------------------------------------------------------------------
-    if ( idTable === 'nodeTable') {
+    if (idTable === 'nodeTable') {
         return 0;
-    } else if ( idTable === 'elemTable') {
+    } else if (idTable === 'elemTable') {
         return 1;
     }
     return undefined;

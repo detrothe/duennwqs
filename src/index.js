@@ -45,7 +45,7 @@ export function set_myScreen() {
     document.getElementById("my-svg").style.height = myScreen.clientHeight + 'px';
 }
 
-export function eingabe() {
+export function eingabe1() {
     console.log("in eingabe");
     sichtbar('eingabe')
     /*
@@ -70,7 +70,7 @@ export function eingabe() {
      */
 }
 
-window.eingabe = eingabe;   // jetzt auch in html sichtbar
+window.eingabe1 = eingabe1;   // jetzt auch in html sichtbar
 
 
 function tan_2() {

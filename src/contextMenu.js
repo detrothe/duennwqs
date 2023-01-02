@@ -373,7 +373,7 @@ function menuItemListener(link) {
                 //console.log("zeile", i, zeile, zeile.length);
                 for (j = 0; j < zeile.length; j++) {
                     //console.log("z", i, j, zeile[j]);
-                    if ( (row + i) < nZeilen && (col+j) < nSpalten ) {
+                    if ((row + i) < nZeilen && (col + j) < nSpalten) {
                         tabelle.rows[row + i].cells[col + j].innerText = zeile[j];
                     }
                 }

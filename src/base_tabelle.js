@@ -422,7 +422,7 @@ export function KEYDOWN(ev) {
 
         console.log("idTable", str);
         const elemNeu = document.getElementById(str);
-        if ( elemNeu.contentEditable === 'true') {
+        if (elemNeu.contentEditable === 'true') {
             elemNeu.classList.add('highlight');
             elemNeu.innerText = "";
         }
@@ -504,7 +504,9 @@ export function resize_Tabelle(idTable, nRowNew, nColNew) {
 
     if (nRowNew > nZeilen) {
 
-        const material_equal = document.getElementById('material_equal') as HTMLInputElement | null;
+        const material_equal = document.getElementById('material_equal')
+        as
+        HTMLInputElement | null;
         console.log("in setMaterialEqual", material_equal.checked);
         for (let i = nZeilen + 1; i <= nRowNew; i++) {
             //selectedCellPoly.selColY.push(false);
@@ -538,7 +540,7 @@ export function resize_Tabelle(idTable, nRowNew, nColNew) {
 
                 } else if (j <= nRowNew) {
                     //newCell.style.backgroundColor = "#FFFFFF";
-                    if ( material_equal.checked && j<3) {
+                    if (material_equal.checked && j < 3) {
                         newCell.contentEditable = 'false';
                         newCell.classList.add('unsichtbar');
                     } else {

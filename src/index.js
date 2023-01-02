@@ -45,32 +45,7 @@ export function set_myScreen() {
     document.getElementById("my-svg").style.height = myScreen.clientHeight + 'px';
 }
 
-export function eingabe1() {
-    console.log("in eingabe");
-    sichtbar('eingabe')
-    /*
-    const tab1 = document.getElementById("gleichungssystem");
-    tab1.style.display = "none";
-    const tab = document.getElementById("tangens");
-    tab.style.display = "block";
-    const tab2 = document.getElementById("rechteSeite");
-    tab2.style.display = "none";
-    const tab3 = document.getElementById("Loesungsvektor");
-    tab3.style.display = "none";
-    const tab4 = document.getElementById("gleichungssystem_top");
-    tab4.style.display = "none";
-    const tab5 = document.getElementById("gleichungssystem_daten");
-    tab5.style.display = "none";
 
-    document.getElementById("spannungen").style.display = "none";
-    document.getElementById("img_stress").style.display = "none";
-    document.getElementById("kdTabelle").style.display = "none";
-    document.getElementById("my_dataviz").style.display = "none";
-
-     */
-}
-
-window.eingabe1 = eingabe1;   // jetzt auch in html sichtbar
 
 
 function tan_2() {

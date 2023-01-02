@@ -41,13 +41,13 @@ export function SDuennTruss() {
 export function sichtbar(displayName) {
 
     if (displayName === 'eingabe') {
-        document.getElementById("eingabe").style.display = "block";
+        //document.getElementById("eingabe").style.display = "block";
         document.getElementById("knotentabelle").style.display = "block";
         document.getElementById("elementtabelle").style.display = "block";
         document.getElementById("eingabe_duennQ_top").style.display = "block";
         document.getElementById("duennQ_save_daten").style.display = "block";
     } else {
-        document.getElementById("eingabe").style.display = "none";
+        //document.getElementById("eingabe").style.display = "none";
         document.getElementById("knotentabelle").style.display = "none";
         document.getElementById("elementtabelle").style.display = "none";
         document.getElementById("eingabe_duennQ_top").style.display = "none";

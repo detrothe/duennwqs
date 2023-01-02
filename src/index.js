@@ -120,7 +120,10 @@ export const Detect = new DetectOS();
 init_contextmenu();
 
 main_3D();
-add_element();
+
+sichtbar('eingabe')
+
+// add_element();
 
 //let obj = new C_3D()
 

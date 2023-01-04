@@ -47,7 +47,7 @@ export function set_myScreen() {
 
 
 
-
+/*
 function tan_2() {
     let x, y, alpha;
 
@@ -67,7 +67,7 @@ function tan_2() {
 
 window.tan_2 = tan_2;
 
-
+*/
 //-------------------------------------------------------------------------------
 
 export const app = {

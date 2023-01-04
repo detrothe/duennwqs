@@ -67,13 +67,13 @@ dd.push(new test)
  */
 
 //----------------------------------------------------------------------------------------------
-export function tabulate(theDiv, id, data, columns) {
+export function tabulate(theDiv, i_d, data, columns) {
 //----------------------------------------------------------------------------------------------
 
     //console.log('columns', columns);
     //console.log("data", data);
 
-    const table = d3.select(theDiv).append('table').style('border', 'solid').style('border-spacing', '0px').style('padding', "10px").attr("id", id).attr("class", "tabelle")
+    const table = d3.select(theDiv).append('table').style('border', 'solid').style('border-spacing', '0px').style('padding', "10px").attr("id", i_d).attr("class", "tabelle")
     const thead = table.append('thead')
     const tbody = table.append('tbody');
     let zeile = 1

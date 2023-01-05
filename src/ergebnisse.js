@@ -93,6 +93,7 @@ export function eingabe1() {
      */
 }
 
+console.log("vor eingabe1");
 window.eingabe1 = eingabe1;   // jetzt auch in html sichtbar
 
 window.ergebnisse = ergebnisse;   // jetzt auch in html sichtbar

@@ -54,7 +54,7 @@ function setMaterialEqual(ev) {
 
 
     const tabelle = document.getElementById("elemTable") as HTMLTableElement | null;
-    ;
+
     //let nSpalten = tabelle.rows[0].cells.length;
 
     if (ev.target.checked) {
@@ -206,7 +206,7 @@ const xx = [0.0, 20.0, 40.0, 20.0, 40.0, 0.0];
 const yy = [0.0, 0.0, 0.0, 40.0, 40.0, 40.0];
 
 // @ts-ignore
-tabulate('knotentabelle', 'nodeTable', nodeObj.nodeArray, ['No', 'y [cm]', 'z [cm]']);
+tabulate('#knotentabelle', 'nodeTable', nodeObj.nodeArray, ['No', 'y [cm]', 'z [cm]']);
 // @ts-ignore
 tabulate('#elementtabelle', 'elemTable', elemObj.elemArray, ["El No", 'E-Modul [kN/cm²]', 'ν', 'Dicke t [cm]', 'nod1', 'nod2']);
 

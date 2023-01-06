@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import {table_index} from "./duennQ_tabelle";
+import {table_index} from "./duennQ_tabelle.js";
 
 
 export const selectedCellPoly = {   // export const
@@ -504,9 +504,7 @@ export function resize_Tabelle(idTable, nRowNew, nColNew) {
 
     if (nRowNew > nZeilen) {
 
-        const material_equal = document.getElementById('material_equal')
-        as
-        HTMLInputElement | null;
+        const material_equal = document.getElementById('material_equal') // as HTMLInputElement | null;
         console.log("in setMaterialEqual", material_equal.checked);
         for (let i = nZeilen + 1; i <= nRowNew; i++) {
             //selectedCellPoly.selColY.push(false);

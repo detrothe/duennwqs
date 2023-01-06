@@ -42,7 +42,6 @@ function setMaterialEqual(ev) {
     const input = document.getElementById('material_equal');
     console.log("in setMaterialEqual", input.checked);
     const tabelle = document.getElementById("elemTable");
-    ;
     //let nSpalten = tabelle.rows[0].cells.length;
     if (ev.target.checked) {
         console.log("editable", document.getElementById("EMod_ref").isContentEditable);
@@ -176,7 +175,7 @@ for (let i = 1; i <= nelem; i++) {
 }
 const xx = [0.0, 20.0, 40.0, 20.0, 40.0, 0.0];
 const yy = [0.0, 0.0, 0.0, 40.0, 40.0, 40.0];
-// @ts-ignore
+/// @ ts-ignore
 tabulate('#knotentabelle', 'nodeTable', nodeObj.nodeArray, ['No', 'y [cm]', 'z [cm]']);
 // @ts-ignore
 tabulate('#elementtabelle', 'elemTable', elemObj.elemArray, ["El No", 'E-Modul [kN/cm²]', 'ν', 'Dicke t [cm]', 'nod1', 'nod2']);

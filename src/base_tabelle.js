@@ -70,8 +70,8 @@ dd.push(new test)
 export function tabulate(theDiv, i_d, data, columns) {
 //----------------------------------------------------------------------------------------------
 
-    //console.log('columns', columns);
-    //console.log("data", data);
+    console.log("thediv, i_d", theDiv, i_d);
+    console.log('columns', columns);
     console.log ("data",data)
 
     const table = d3.select(theDiv).append('table').style('border', 'solid').style('border-spacing', '0px').style('padding', "10px").attr("id", i_d).attr("class", "tabelle")

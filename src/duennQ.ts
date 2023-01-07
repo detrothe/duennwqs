@@ -206,10 +206,10 @@ for (let i = 1; i <= nelem; i++) {
 const xx = [0.0, 20.0, 40.0, 20.0, 40.0, 0.0];
 const yy = [0.0, 0.0, 0.0, 40.0, 40.0, 40.0];
 
-// @ts-ignore
-tabulate('#knotentabelle', 'nodeTable', nodeObj.nodeArray, ['No', 'y [cm]', 'z [cm]']);
-// @ts-ignore
-tabulate('#elementtabelle', 'elemTable', elemObj.elemArray, ["El No", 'E-Modul [kN/cm²]', 'ν', 'Dicke t [cm]', 'nod1', 'nod2']);
+// @  ts  -ignore
+tabulate('#knotentabelle', 'nodeTable', nodeArray, ['No', 'y [cm]', 'z [cm]']);  // nodeObj.
+// @ ts-ignore
+tabulate('#elementtabelle', 'elemTable', elemArray, ["El No", 'E-Modul [kN/cm²]', 'ν', 'Dicke t [cm]', 'nod1', 'nod2']);  // elemObj.
 
 
 const nTabelle = document.getElementById("nodeTable") as HTMLTableElement;

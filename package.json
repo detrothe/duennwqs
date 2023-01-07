@@ -21,7 +21,6 @@
     "@parcel/transformer-webmanifest": "^2.8.2",
     "@types/three": "^0.148.0"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/detrothe/duennwqs.git"

@@ -444,7 +444,7 @@ export function resize_Tabelle(idTable, nRowNew, nColNew) {
 
     console.info("in resize", idTable);
 
-    const table = document.getElementById(idTable);
+    const table = document.getElementById(idTable) // as HTMLTableElement;
     //console.log("spalten",table);
     let nZeilen = table.rows.length - 1;  // header abziehen
     let nSpalten = table.rows[0].cells.length - 1;
@@ -505,7 +505,7 @@ export function resize_Tabelle(idTable, nRowNew, nColNew) {
 
     if (nRowNew > nZeilen) {
 
-        const material_equal = document.getElementById('material_equal') // as HTMLInputElement | null;
+        const material_equal = document.getElementById('material_equal') //as HTMLInputElement | null;
         console.log("in setMaterialEqual", material_equal.checked);
         for (let i = nZeilen + 1; i <= nRowNew; i++) {
             //selectedCellPoly.selColY.push(false);

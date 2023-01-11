@@ -17,8 +17,6 @@
     "three": "^0.148.0"
   },
   "devDependencies": {
-    "@parcel/packager-raw-url": "^2.8.2",
-    "@parcel/transformer-webmanifest": "^2.8.2",
     "@types/three": "^0.148.0"
   },
   "repository": {
